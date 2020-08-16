@@ -22,7 +22,6 @@ h2 {
 }
 
 .card {
-    background-color: rgba(102, 219, 129, 0.44);
     width: 100%;
     border: none;
     border-radius: 0;  
@@ -71,8 +70,15 @@ h2 {
     background-color: rgb(180, 144, 130, 0.8);
 }
 
-.card:hover {
+#colombia {
+    background-color: rgba(102, 219, 129, 0.44);
+}
+#colombia:hover {
     background-color: rgba(102, 219, 129, 0.84);
+}
+
+.card:hover {
+    
     text-transform: uppercase;
 }
 
