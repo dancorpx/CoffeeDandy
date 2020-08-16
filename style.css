@@ -107,8 +107,8 @@ i {
 
 i img {
     display: none;
-    height: 30vh;
-    width: auto;
+    height: auto;
+    width: 20vw;
 }
 
 i:hover img{
@@ -138,5 +138,11 @@ footer p {
     
     .card-body {
         box-shadow: none;       
+    }
+    
+        i img {
+        display: none;
+        height: auto;
+        width: 30vw;
     }
 }
