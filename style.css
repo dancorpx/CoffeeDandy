@@ -100,8 +100,19 @@ img {
 .fa {
     font-size: 3em;
 }
+
 i {
     margin: 8px;
+}
+
+i img {
+    display: none;
+    height: 30vh;
+    width: auto;
+}
+
+i:hover img{
+    display: block;  
 }
 
 .price {
